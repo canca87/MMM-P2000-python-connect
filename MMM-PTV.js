@@ -30,7 +30,7 @@ Module.register("MMM-P2000-python-connect", {
 
           this.sendSocketNotification("GIVE_ME_DATA")
 
-        }, 1000)
+        }, 30000)
 
         break
 

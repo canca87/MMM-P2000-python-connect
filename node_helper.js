@@ -46,7 +46,7 @@ module.exports = NodeHelper.create({
 
 
 
-    var process = spawn("/usr/bin/python", [path.join(__dirname, "testit.py")])
+    var process = spawn("/home/pi/miniconda3/bin/python3", [path.join(__dirname, "PTV.py")])
 
 		 process.stderr.on("data", (data)=>{
 			console.log("p2000 process errorr="+data)
